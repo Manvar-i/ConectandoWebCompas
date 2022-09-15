@@ -1,0 +1,375 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Tapestry&family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+/* === Paleta de Colores Light Mode === */
+.lightM {
+    --mainColor: #0894fc;
+    --hoverColor: #007bd9;
+    --backgroundColor: #ffffff;
+    --backgroundColor2: #0e1d25;
+    --backgroundColor3: #ffffff;
+    --darkColorOne: #312f3a;
+    --darkColorTwo: #45424b;
+    --lightColorOne: #868282;
+    --lightColorTwo: rgb(147, 146, 146);
+    --generalColor: #ffffff;
+}
+
+
+
+/* === Estilo de página default == */
+*, *::before, *::after {
+    /* Dimensionar elementos */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* === Estilo Predeterminado del Body === */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+
+/* === Width default para las imágenes === */
+img {
+    width: 100%;
+}
+
+/* === Aspecto default del tag <a> === */
+a {
+    text-decoration: none;
+    /* Quita el underline de los elementos <a> */
+}
+
+/* === Div que contiene toda la página == */
+.landing-container {
+    position: relative;
+    padding: 1rem 0 2rem;
+    width: 100%;
+    min-height: 100vh;
+    border-color: #ffffff;
+    background-color: var(--backgroundColor);
+    display: flex;
+    flex-direction: column;
+    /* Organiza los objetos de forma vertical y horizontalmente */
+    justify-content: space-between;
+    /* Agrega espacio entre contenedores */
+}
+
+/* === Div container para uso general === */
+.containerr {
+    position: relative;
+    max-width: 83rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 3rem;
+    z-index: 10;
+}
+
+.containerrr {
+    position: relative;
+    max-width: 83rem;
+    width: 100%;
+    padding: 0 3rem;
+    z-index: 10;
+}
+
+/* === END === */
+
+/* === Estilo para el container en <header === */
+header .containerr {
+    /* Centraremos los divs que se encuentren despues de este */
+    display: flex;
+    justify-content: space-between;
+    /* Los va a separar*/
+    align-items: center;
+    margin-top: 24px;
+}
+
+/* === Estilo para el logo=== */
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.single-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+.img-area {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border: 5px;
+    overflow: hidden;
+    left: 125px;
+    margin-bottom: 3rem;
+}
+
+/*  === Estilo para logos en tag de <img> === */
+.logo img {
+    width: 40%;
+    margin-right: .6rem;
+    margin-top: -0.6rem;
+}
+
+/* === Logo atos derecha === */
+.circle {
+    width: 100%;
+    height: 85%;
+}
+
+.circle2 {
+    width: 70%;
+    height: 75%;
+    transform: translate(15%, 2px);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* === Logo Atos en Texto Izq === */
+.logo2 {
+    width: 120px;
+}
+
+/* === Diseño para la clase links en <ul> === */
+.links ul {
+    display: flex;
+    /* Los pone en horizontal */
+    list-style: none;
+    /* Les quita la viñeta */
+    align-items: center;
+    cursor: pointer;
+}
+
+/* === Diseño para la clase links en <a> === */
+.links a {
+    color: var(--lightColorTwo);
+    margin-left: 5rem;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+    /* === Diseño de Hover para los links (animacion) === */
+    .links a:hover {
+        color: var(--hoverColor);
+        transform: scale(1.1);
+        transition: 0.7s;
+    }
+
+.card:hover {
+    transform: scale(1.01);
+    transition: 0.7s;
+}
+
+
+.boton {
+    display: inline-block;
+    /* Respetar margin y padding */
+    padding: .9rem 2rem;
+    color: white !important;
+    background-color: var(--mainColor);
+    border-radius: 16px;
+    text-transform: capitalize;
+    transition: 1s;
+}
+
+
+    .boton:hover {
+        background-color: var(--hoverColor);
+        transform: scale(1) !important;
+    }
+
+.cuerpo .containerr {
+    display: grid;
+    /* Hacelo tipo tabla */
+    grid-template-columns: repeat(2, 1fr);
+    /*grid-template-columns: 1fr 1fr; /* 1 por cada espacio disponible en el grid (50%) */
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    color: var(--darkColorOne);
+    line-height: 1.4;
+}
+
+.titulo2 {
+    color: var(--darkColorOne);
+    text-transform: capitalize;
+}
+
+.texto {
+    color: var(--lightColorOne);
+    font-size: 1.1rem;
+    margin: 1.8rem 0 2.5rem;
+    max-width: 600px;
+    line-height: 1.8;
+}
+
+.texto2 {
+    color: var(--lightColorOne);
+    font-size: 1.1rem;
+    margin: 1.4rem 0 10px;
+    max-width: 905px;
+    line-height: 1.8;
+}
+
+.texto3 {
+    color: var(--lightColorOne);
+    font-size: 16px;
+}
+
+
+@keyframes spin_words {
+
+    10% {
+        transform: translateY(-112%);
+    }
+
+    25% {
+        transform: translateY(-100%);
+    }
+
+    35% {
+        transform: translateY(-212%);
+    }
+
+    50% {
+        transform: translateY(-200%);
+    }
+
+    60% {
+        transform: translateY(-312%);
+    }
+
+    75% {
+        transform: translateY(-300%);
+    }
+
+    85% {
+        transform: translateY(-412%);
+    }
+
+    100% {
+        transform: translateY(-400%);
+    }
+}
+
+.wrapper {
+    position: relative;
+    max-width: 83rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 3rem;
+    box-sizing: content-box;
+}
+
+*/
+
+.pal {
+    overflow: hidden;
+}
+
+.cuerpo .boton {
+    box-shadow: 0 0 40px 2px rgba(0, 0, 0, 0.08);
+}
+
+.underbutton {
+    margin-top: 10px;
+    color: var(--lightColorOne);
+    font-size: 12px;
+}
+
+.miniFAQ {
+    color: var(--lightColorOne);
+    text-decoration-line: underline;
+}
+
+
+.trabaja {
+    background-color: var(--backgroundColor2);
+    font-size: 1.55rem;
+    line-height: 1.7;
+    font-weight: 700;
+    /* Grueso de letra */
+    align-items: center;
+    justify-content: center;
+}
+
+    .trabaja h3 {
+        color: var(--generalColor);
+        font-size: 1.55rem;
+        line-height: 1.7;
+        font-weight: 700;
+        /* Grueso de letra */
+    }
+
+
+.fondo {
+    align-content: right;
+}
+
+    .fondo .containerr {
+        display: grid;
+        /* Hacelo tipo tabla */
+        /*grid-template-columns: 1fr 1fr; /* 1 por cada espacio disponible en el grid (50%) */
+        max-width: 83rem;
+        position: fixed;
+        bottom: 21px;
+    }
+
+
+.toggle-DM {
+    display: inline-block;
+    border: none;
+    background-color: var(--darkColorTwo);
+    color: var(--backgroundColor);
+    outline: none;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    border-radius: 16px;
+    font-size: 1rem;
+    margin: auto;
+    transition: 0.3s;
+    margin-right: 0;
+}
+
+    .toggle-DM i {
+        line-height: 31px;
+    }
+
+.landing-container.lightM .toggle-DM :last-child {
+    display: none;
+}
+
+.landing-container.lightM .toggle-DM :first-child {
+    display: block;
+}
+
+.landing-container.darkM .toggle-DM :last-child {
+    display: block;
+}
+
+.landing-container.darkM .toggle-DM :first-child {
+    display: none;
+}
+
+.toggle-DM:hover {
+    background-color: var(--mainColor);
+}
+
+
+.textoFoot {
+    text-align: center;
+    margin-right: 30rem;
+}

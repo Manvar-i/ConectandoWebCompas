@@ -1,0 +1,54 @@
+﻿<Properties StartupConfiguration="{543F3A64-2C98-496B-8685-E5CA4CF3CE2B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApplicationMisCompas/Pages/Registro.cshtml.cs">
+    <Files>
+      <File FileName="WebApplicationMisCompas/Pages/PerfilEditable.cshtml.cs" Line="55" Column="1" />
+      <File FileName="WebApplicationMisCompas/Pages/PerfilEditable.cshtml" />
+      <File FileName="WebApplicationMisCompas/Pages/Menu.cshtml" />
+      <File FileName="WebApplicationMisCompas/Pages/Menu.cshtml.cs" />
+      <File FileName="WebApplicationMisCompas/Pages/Login.cshtml.cs" />
+      <File FileName="WebApplicationMisCompas/Pages/Registro.cshtml.cs" />
+      <File FileName="WebApplicationMisCompas/Pages/Login.cshtml" />
+      <File FileName="WebApplicationMisCompas/Pages/Registro.cshtml" />
+      <File FileName="WebApplicationMisCompas/Pages/Resena.cshtml" />
+      <File FileName="WebApplicationMisCompas/Pages/Resena.cshtml.cs" />
+      <File FileName="WebApplicationMisCompas/Pages/Editar.cshtml" />
+      <File FileName="WebApplicationMisCompas/Pages/Editar.cshtml.cs" />
+      <File FileName="WebApplicationMisCompas/Pages/_ViewStart.cshtml" />
+      <File FileName="WebApplicationMisCompas/Pages/_ViewImports.cshtml" />
+      <File FileName="WebApplicationMisCompas/Pages/Borra.cshtml" />
+      <File FileName="WebApplicationMisCompas/Pages/Borra.cshtml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebApplicationMisCompas" expanded="True">
+            <Node name="WebApplicationMisCompas" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Model" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Borra.cshtml" expanded="True" />
+                <Node name="Editar.cshtml" expanded="True" />
+                <Node name="Registro.cshtml" expanded="True">
+                  <Node name="Registro.cshtml.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="wwwroot" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.WebApplicationMisCompas PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

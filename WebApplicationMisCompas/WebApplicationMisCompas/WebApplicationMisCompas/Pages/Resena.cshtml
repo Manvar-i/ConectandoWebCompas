@@ -1,0 +1,103 @@
+﻿@page
+@model WebApplicationMisCompas.Pages.ResenaModel
+@{
+    Layout = "";
+}
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/img/Resena/favicon.png">
+    <title>Califica - MisCompas</title>
+
+</head>
+
+<style>
+
+    body {
+        background: #F3F5F7;
+    }
+
+    .mt-5 {
+        margin-top: 8rem !important;
+    }
+
+    .bg {
+        background-image: url(img/Resena/deer.JPG);
+        background-position: center;
+        background-size: 36rem;
+    }
+</style>
+
+<body style="font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 300;">
+    <div class="container w-75 h-50 bg-primary mt-5 rounded shadow">
+        <div class="row align-items-lg-stretch">
+            <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded">
+
+            </div>
+            <div class="col bg-white p-3 rounded-end">
+                <div class="text-end">
+                    <img src="/img/Resena/mk.png" width="50" alt="logo">
+                </div>
+                <h2 style="margin-bottom: 1rem;"> Califica a <span style="color:#0894fc">tuCompa</span></h2>
+
+                <!-- Empieza el login del usuario -->
+                <form method="post">
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label for="validationDefault01">ID Compa</label>
+                            <input asp-for="AlumnoID" type="number" for="validationDefault01" class="form-control" id="validationDefault01" required style="font-size: 14px;">
+                            <small id="FirstNameHelpBlock" class="form-text text-muted">
+                                Ej: 9823
+                            </small>
+                        </div>
+                        <!--Last Name-->
+                        <div class="col-md-4 mb-3">
+                            <label for="validationDefault02">Calificación</label>
+                            <input asp-for="Calificacion" type="name" class="form-control" id="validationDefault02" required style="font-size: 14px;">
+                            <small id="LastNameHelpBlock" class="form-text text-muted">
+                                En base 10
+                            </small>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 mb-3">
+                            <label for="validationDefault04">Descripción</label>
+                            <textarea asp-for="Descripcion" type="text" class="form-control" id="exampleFormControlTextarea1" rows="3" maxlength="1000"></textarea>
+                            <small id="FirstNameHelpBlock" class="form-text text-muted">
+                            </small>
+                        </div>
+                    </div>
+                    <div class="mb-4" style="font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 300 !important;">
+                        <input type="checkbox" name="politica" class="form-check-input" checked>
+                        <label for="politica" class="form-check-label">Prometo no mentir en mi calificacion</label>
+                    </div>
+                    <div class="row">
+                        <div class="col-3"></div>
+                        <div class="d-grid col-6">
+                            <input class="btn btn-primary" type="submit" value="Publicar" name="submit" id="Publicar">
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+
+                    <div class="my-3" style="text-align: center;">
+                        <!-- No se si sea recomendable regresarlo, pero en todo caso esta ventana debe abrirse en una nueva pestaña (como el CV)-->
+                        <span>¿Cambiaste de opinion?</span> <a asp-page="/Perfil">Regresar</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

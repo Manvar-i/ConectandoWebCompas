@@ -1,0 +1,68 @@
+﻿@page
+@model WebApplicationMisCompas.Pages.ThankYouModel
+@{
+    Layout = "";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="icon" type="image/png" href="/img/Landing/favicon.png">
+    <link rel="stylesheet" href="/css/cover.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Confirmacíon - misCompas</title>
+    <style>
+        card {
+        }
+    </style>
+</head>
+
+
+
+<header>
+    <nav class="navbar" style="background-color: black; height: 70px;">
+        <div class="navbar-brand" href="#">
+            <div style="margin-left: 2.5rem">
+                <a asp-page="/Index"><img src="/img/Landing/favicon.png" alt="Atos_Logo" width="50px" height="10%px" /></a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body style="background-color: #f9f5f5; font-family: 'Poppins', sans-serif;">
+    <div class="container" style="width: 40%; margin-top: 9rem; margin-bottom: 7.3rem;">
+        <div class="card text-center">
+            <div class="card-header">
+                ¡Gracias!
+            </div>
+            <div class="card-body">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Eo_circle_green_checkmark.svg/2048px-Eo_circle_green_checkmark.svg.png" class="img-fluid" style="margin-bottom: 1rem; width: 30px; height: 30px">
+                <p class="card-text">Tu opinión ha sido registrada correctamente</p>
+                <a asp-page="/Menu" class="btn btn-success">Regresar al Menú</a>
+            </div>
+            <div class="card-footer text-muted">
+                <small class="text-muted"><a asp-page="/Index" style="font-size: 13px;color: dimgrey ;text-decoration: none">Regresar a la página principal</a></small>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+<br>
+<br>
+</html>
+
+<footer class="bg-dark text-center text-white">
+    <div class="container p-2 pb-0">
+        <p class="font-italic" style="margin-top: 20px;">Your next journey starts here, at Atos.</p>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright: MisCompas
+    </div>
+</footer>

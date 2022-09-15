@@ -1,0 +1,79 @@
+﻿@page
+@model IndexModel
+@{
+    Layout = "";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/img/Landing/favicon.png">
+    <link rel="stylesheet" href="/css/cover.css">
+    <title>misCompas</title>
+
+</head>
+<body style="font-family: 'Poppins', sans-serif !important; font-size: 12px; font-weight: 300;">
+    <main>
+        <div class="landing-container lightM" style="font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 300;">
+            <header>
+                <div class="containerr" style="font-family: 'Poppins', sans-serif; font-size: 12px; font-weight: 300;">
+                    <div class="logo">
+                        <a asp-page="/Index"><img src="/img/Landing/favicon.png" alt="Atos_Logo" width="50px" height="10%px" /></a>
+                    </div>
+                    <div class="links">
+                        <ul>
+                            <li><a asp-page="/Index" style="text-decoration: none; font-family: 'Poppins', sans-serif !important; font-size: 14px; font-weight: 300">Inicio</a></li>
+                            <li><a asp-page="/Menu" style="text-decoration: none; font-family: 'Poppins', sans-serif !important; font-size: 14px; font-weight: 300">Califica</a></li>
+                            <li><a asp-page="/Login" class="boton" style="text-decoration: none; font-family: 'Poppins', sans-serif !important; font-size: 14px; font-weight: 300">Ingresa</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <div class="cuerpo">
+                <div class="containerr">
+                    <div class="divIzq">
+                        <div class="titulo">
+                            <h1>Bienvenido a la nueva</h1>
+                            <h1>forma de <span style="color:#0894fc">calificar</span>.</h1>
+                        </div>
+                        <p class="texto">
+                            Te presentamos <span style="color:#0894fc">misCompas</span>.<br />
+                            La <span style="color:rgb(255, 0, 0)">E</span><span style="color: orange">C</span><span style="color:rgb(53, 53, 226)">O</span><span style="color:purple">A</span>
+                            enfocada en tus compañeros.
+                        </p>
+
+                        <div class="redirigiraCV">
+                            <a asp-page="/Registro" class="boton" style="text-decoration: none; font-family: 'Poppins', sans-serif !important; font-size: 14px; font-weight: 300">Registrarse </a>
+                            <p class="underbutton">
+                                ¡<span style="color:#0894fc">Tec</span>speramos!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container mb-5">
+                        <img class="circle"
+                             src="/img/Landing/po-removebg-preview.png"
+                             alt="Atos_circ" />
+                    </div>
+                </div>
+            </div>
+            <div class="fondo">
+                <div class="containerr">
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- JS -->
+</body>
+</html>
+
