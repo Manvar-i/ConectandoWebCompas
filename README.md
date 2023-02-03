@@ -132,7 +132,7 @@ Here you'll find the team that made possible this project. Feel free to check ou
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the Creative Commons CC0 License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">Go to Top</a>)</p>
 
