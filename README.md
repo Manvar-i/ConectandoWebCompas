@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Axel3246/RateYourTeam-QuickWebApp">
-    <img src="./Images/MC_logo" alt="Logo" width="80" height="80">
+    <img src="https://github.com/Axel3246/RateYourTeam-QuickWebApp/blob/main/Images/MC_logo.png?raw=true alt="Logo" width="15%" height="15%">
   </a>
 
   <h3 align="center">Rate Your Team - Mis Compas</h3>
@@ -42,8 +42,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][land.png]]
-
+<div align="center">
+  <img src="https://github.com/Axel3246/RateYourTeam-QuickWebApp/blob/main/Images/Land.png?raw=true" width="60%" height="60%">
+</div>
+<br>
 Mis Compas (myTeammates in English) it's a web application built in ASP .NET 5 that allows team members to provide to provide feedback and evaluations to one another. The web application provides a user-friendly section where team members can rate their peers based on their overall performance in the proyect. This information can be seen by any person. Why is this important?
 
 Here's why:
