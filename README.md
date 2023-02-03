@@ -71,20 +71,20 @@ Here, you'll find some screenshots of the final applicaton.
 
 
 <div align="center">
-  <img src="https://github.com/Axel3246/MisCompas-WebApp/blob/main/Images/Rating.png?raw=true" width="40%" height="40%">
+  <img src="https://github.com/Axel3246/MisCompas-WebApp/blob/main/Images/Rating.png?raw=true" width="45%" height="45%">
   <p align="center">
     Rating Screen
     <br/>
   </p>
   <br/>
-  <img src="https://github.com/Axel3246/MisCompas-WebApp/blob/main/Images/View.png?raw=true" width="40%" height="40%">
+  <img src="https://github.com/Axel3246/MisCompas-WebApp/blob/main/Images/View.png?raw=true" width="45%" height="45%">
   <p align="center">
     Profile screen (Peer)
     <br/>
   </p>
 </div>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">Go to Top</a>)</p>
 
 <!-- CONTRIBUTING -->
 ## Contributors
