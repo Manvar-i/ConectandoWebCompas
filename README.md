@@ -46,9 +46,9 @@
   <img src="https://github.com/Axel3246/RateYourTeam-QuickWebApp/blob/main/Images/Land.png?raw=true" width="60%" height="60%">
 </div>
 <br>
-Mis Compas (myTeammates in English) it's a web application built in ASP .NET 5 that allows team members to provide to provide feedback and evaluations to one another. The web application provides a user-friendly section where team members can rate their peers based on their overall performance in the proyect. This information can be seen by any person. Why is this important?
+Mis Compas (myTeammates in English) it's a web application built in ASP .NET 5 that allows team members to provide to provide feedback and evaluations to one another. The web application provides a user-friendly section where team members can rate their peers based on their overall performance in the proyect. This information can be seen by any person. Why is this important? Here's why:
+<br></br>
 
-Here's why:
 * You will be able to express your experiences with people
 * Peers will feel more motivated to do well in a group project
 * This goes both ways
