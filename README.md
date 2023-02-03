@@ -65,7 +65,7 @@ This project was built in just 3 days and was implemented using the following te
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## More Screenshots
 
 Here, you'll find some screenshots of the final applicaton.
 
